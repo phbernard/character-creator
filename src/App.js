@@ -6,8 +6,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <CharacterEditor />
-      <Footer />
+      <div class="global-background" />
+      <div>
+        <CharacterEditor />
+        <Footer />
+      </div>
     </>
   );
 }
